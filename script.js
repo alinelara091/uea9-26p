@@ -16,7 +16,7 @@ const descripcion3=document.getElementById("d3");
 const descripcion4=document.getElementById("d4");
 const descripcion5=document.getElementById("d5");
 
-fetch('base.json')
+fetch('../base.json')
 .then(response=> response.json())
 .then(data =>{
     equipo1.textContent=data.equipo1;
