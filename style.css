@@ -109,6 +109,22 @@ footer {
 
 }
 
+.containerImg{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c1bdb2;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.containerImg div{
+    width: 300px;
+    padding: 0.25rem;
+}
+
 .programa {
     background-color: #eeddcc;
     margin: 0.5rem auto;
