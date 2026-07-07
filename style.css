@@ -113,6 +113,68 @@ footer {
     max-width: 80%;
 }
 
+#a1, #a2, #a3, #a4, #a5{
+    color:#1e2b22;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.taller1, .taller2, .taller3{
+    color:#1e2b22;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+summary {
+    background-color: #E9CCAF;
+    color:#1e2b22;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+summary:hover {
+    background-color: #E9CCAF;
+    color:#1e2b22;
+    font-weight: bold;
+    transition: 0.8s;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+details {
+    overflow: hidden;
+    max-height: 3rem;
+    transition: max-height 0.4s ease;
+}
+
+details p {
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+details[open] {
+    max-height: 20rem;
+}
+
+details[open] p {
+    opacity: 1;
+}
+
+#d1, #d2, #d3, #d4, #d5{
+    background-color: #E9CCAF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+
 .indice1{
     background-color: #caa6c2;
     margin: 0.5rem auto;
@@ -142,16 +204,5 @@ a.sp:visited {
     }
 }
 
-summary {
-    background-color: #E9CCAF;
-    color:#1e2b22;
-}
 
-summary:hover {
-    background-color: #E9CCAF;
-    color:#1e2b22;
-    font-weight: bold;
-    transition: 0.3s;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
+
